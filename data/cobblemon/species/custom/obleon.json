@@ -1,0 +1,74 @@
+{
+  "baseStats": {
+    "special_defence": 95,
+    "attack": 60,
+    "special_attack": 110,
+    "speed": 130,
+    "hp": 65,
+    "defence": 60
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:growl",
+    "1:helpinghand"
+  ],
+  "catchRate": 45,
+  "name": "obleon",
+  "hitbox": {
+    "fixed": false,
+    "width": 0.8,
+    "height": 0.8
+  },
+  "evolutions": [
+    
+  ],
+  "secondaryType": "fairy",
+  "primaryType": "dark",
+  "experienceGroup": "medium_fast",
+  "baseFriendship": 70,
+  "evYield": {
+    "speed": 2
+  },
+  "labels": [
+    "custom"
+  ],
+  "weight": 250,
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.1,
+        "canBreatheUnderwater": false,
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true
+    }
+  },
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "baseScale": 1,
+  "forms": [
+    {
+      "name": "normal"
+    }
+  ],
+  "pokedex": [
+    "cobblemon.species.obleon.desc"
+  ],
+  "height": 10,
+  "features": [
+    
+  ],
+  "baseExperienceYield": 184,
+  "maleRatio": 0.875,
+  "abilities": [
+    "pressurized",
+    "h:adaptability"
+  ],
+  "implemented": true
+}

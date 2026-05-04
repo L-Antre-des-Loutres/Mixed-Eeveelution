@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:gloweon",
+      "texture": "cobblemon:textures/pokemon/gloweon/gloweon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:gloweon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:gloweon"
+}

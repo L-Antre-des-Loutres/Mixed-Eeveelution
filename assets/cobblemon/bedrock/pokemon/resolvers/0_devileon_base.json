@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:devileon",
+      "texture": "cobblemon:textures/pokemon/devileon/devileon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:devileon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:devileon"
+}

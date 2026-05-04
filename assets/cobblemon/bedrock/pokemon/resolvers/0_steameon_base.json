@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:steameon",
+      "texture": "cobblemon:textures/pokemon/steameon/steameon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:steameon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:steameon"
+}

@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:lyopheon",
+      "texture": "cobblemon:textures/pokemon/lyopheon/lyopheon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:lyopheon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:lyopheon"
+}

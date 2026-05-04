@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:soleon",
+      "texture": "cobblemon:textures/pokemon/soleon/soleon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:soleon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:soleon"
+}

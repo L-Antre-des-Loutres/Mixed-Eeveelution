@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:laterneon",
+      "texture": "cobblemon:textures/pokemon/laterneon/laterneon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:laterneon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:laterneon"
+}

@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:nateon",
+      "texture": "cobblemon:textures/pokemon/nateon/nateon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:nateon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:nateon"
+}

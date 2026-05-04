@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:obleon",
+      "texture": "cobblemon:textures/pokemon/obleon/obleon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:obleon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:obleon"
+}

@@ -1,0 +1,14 @@
+{
+  "variations": [
+    {
+      "poser": "cobblemon:oracleon",
+      "texture": "cobblemon:textures/pokemon/oracleon/oracleon.png",
+      "aspects": [
+        
+      ],
+      "model": "cobblemon:oracleon.geo"
+    }
+  ],
+  "order": 0,
+  "species": "cobblemon:oracleon"
+}
