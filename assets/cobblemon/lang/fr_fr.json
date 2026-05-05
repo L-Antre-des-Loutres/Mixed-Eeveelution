@@ -1,0 +1,22 @@
+{
+  "cobblemon.species.coldeon.name": "Coldeon",
+  "cobblemon.species.coldeon.desc": "Chaque attaque qui touche l'adversaire a 10% de chances de le geler.",
+  "cobblemon.species.devileon.name": "Devileon",
+  "cobblemon.species.devileon.desc": "Une Évolition sinistre qui manie des flammes capables de consumer les esprits.",
+  "cobblemon.species.gloweon.name": "Gloweon",
+  "cobblemon.species.gloweon.desc": "Son corps brille d'une lumière mystique qui réagit à la pluie.",
+  "cobblemon.species.laterneon.name": "Lanterneon",
+  "cobblemon.species.laterneon.desc": "Une Évolition qui s'épanouit dans les profondeurs les plus sombres de l'océan.",
+  "cobblemon.species.lyopheon.name": "Lyopheon",
+  "cobblemon.species.lyopheon.desc": "Sa présence apporte un froid glacial capable d'invoquer des tempêtes de neige soudaines.",
+  "cobblemon.species.nateon.name": "Nateon",
+  "cobblemon.species.nateon.desc": "Un gardien de la forêt qui puise sa force dans la terre herbeuse.",
+  "cobblemon.species.obleon.name": "Obleon",
+  "cobblemon.species.obleon.desc": "Une Évolition née de l'équilibre entre les ombres et la lumière de la lune.",
+  "cobblemon.species.oracleon.name": "Oracleon",
+  "cobblemon.species.oracleon.desc": "Ses flammes révèlent des aperçus du futur à ceux qui osent y regarder.",
+  "cobblemon.species.soleon.name": "Soleon",
+  "cobblemon.species.soleon.desc": "Il puise son énergie dans le soleil pour alimenter ses décharges électriques intenses.",
+  "cobblemon.species.steameon.name": "Steameon",
+  "cobblemon.species.steameon.desc": "Il contrôle la puissance de la vapeur bouillante, le rendant immunisé aux faiblesses habituelles du type Feu."
+}

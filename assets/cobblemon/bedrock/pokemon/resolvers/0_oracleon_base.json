@@ -1,14 +1,19 @@
 {
+  "species": "cobblemon:oracleon",
+  "order": 0,
   "variations": [
     {
-      "poser": "cobblemon:oracleon",
-      "texture": "cobblemon:textures/pokemon/oracleon/oracleon.png",
       "aspects": [
         
       ],
-      "model": "cobblemon:oracleon.geo"
+      "model": "cobblemon:oracleon.geo",
+      "texture": "cobblemon:textures/pokemon/oracleon/oracleon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oracleon/.png"
     }
-  ],
-  "order": 0,
-  "species": "cobblemon:oracleon"
+  ]
 }

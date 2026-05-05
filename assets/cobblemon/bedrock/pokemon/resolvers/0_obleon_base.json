@@ -1,14 +1,19 @@
 {
+  "species": "cobblemon:obleon",
+  "order": 0,
   "variations": [
     {
-      "poser": "cobblemon:obleon",
-      "texture": "cobblemon:textures/pokemon/obleon/obleon.png",
       "aspects": [
         
       ],
-      "model": "cobblemon:obleon.geo"
+      "model": "cobblemon:obleon.geo",
+      "texture": "cobblemon:textures/pokemon/obleon/obleon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/obleon/.png"
     }
-  ],
-  "order": 0,
-  "species": "cobblemon:obleon"
+  ]
 }

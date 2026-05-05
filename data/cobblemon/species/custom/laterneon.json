@@ -1,74 +1,123 @@
 {
-  "baseStats": {
-    "special_defence": 95,
-    "attack": 60,
-    "special_attack": 110,
-    "speed": 130,
-    "hp": 65,
-    "defence": 60
-  },
-  "moves": [
-    "1:tackle",
-    "1:tailwhip",
-    "1:growl",
-    "1:helpinghand"
-  ],
-  "catchRate": 45,
+  "implemented": true,
   "name": "laterneon",
-  "hitbox": {
-    "fixed": false,
-    "width": 0.8,
-    "height": 0.8
-  },
-  "evolutions": [
-    
-  ],
-  "secondaryType": "water",
-  "primaryType": "dark",
-  "experienceGroup": "medium_fast",
-  "baseFriendship": 70,
-  "evYield": {
-    "speed": 2
-  },
+  "nationalPokedexNumber": 1026,
   "labels": [
     "custom"
   ],
-  "weight": 250,
-  "behaviour": {
-    "moving": {
-      "swim": {
-        "swimSpeed": 0.1,
-        "canBreatheUnderwater": true,
-        "canSwimInWater": true
-      },
-      "fly": {
-        "canFly": false
-      },
-      "canLook": true
-    }
-  },
-  "eggCycles": 35,
-  "eggGroups": [
-    "field"
+  "pokedex": [
+    "cobblemon.species.flammiko.desc"
   ],
-  "baseScale": 1,
+  "height": 2,
+  "weight": 100,
+  "features": [],
   "forms": [
     {
       "name": "normal"
     }
   ],
-  "pokedex": [
-    "cobblemon.species.laterneon.desc"
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:haste",
+      "amplifier": 1,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": false
+    }
   ],
-  "height": 10,
-  "features": [
-    
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "baseStats": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 40,
+    "special_attack": 120,
+    "special_defence": 40,
+    "speed": 145
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 236,
+  "experienceGroup": "fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "grass",
+    "monster"
   ],
-  "baseExperienceYield": 184,
-  "maleRatio": 0.875,
+  "baseFriendship": 70,
+  "evYield": {
+    "special_attack": 1,
+    "speed": 2
+  },
+  "moves": [
+    "egg:disable",
+    "1:ember",
+    "1:thundershock",
+    "1:pound",
+    "1:growl",
+    "4:swift",
+    "5:charge",
+    "5:thunderbolt",
+    "8:flamecharge",
+    "10:nuzzle",
+    "15:encore",
+    "18:copycat",
+    "20:spark",
+    "20:flameburst",
+    "25:thunderwave",
+    "25:will-o-wisp",
+    "30:thunderbolt",
+    "30:flamethrower",
+    "35:power-uppunch",
+    "40:thunderpunch",
+    "40:firepunch",
+    "45:icepunch",
+    "50:knockoff",
+    "55:overheat",
+    "55:thunder",
+    "tm:rest"
+  ],
   "abilities": [
-    "pressurized",
-    "h:adaptability"
+    "voltabsorb",
+    "flashfire",
+    "h:simple"
   ],
-  "implemented": true
+  "evolutions": [],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-2",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-12"
+      }
+    }
+  }
 }

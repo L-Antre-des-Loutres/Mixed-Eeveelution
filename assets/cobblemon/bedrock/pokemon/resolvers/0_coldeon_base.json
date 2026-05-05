@@ -1,14 +1,19 @@
 {
+  "species": "cobblemon:coldeon",
+  "order": 0,
   "variations": [
     {
-      "poser": "cobblemon:coldeon",
-      "texture": "cobblemon:textures/pokemon/coldeon/coldeon.png",
       "aspects": [
         
       ],
-      "model": "cobblemon:coldeon.geo"
+      "model": "cobblemon:coldeon.geo",
+      "texture": "cobblemon:textures/pokemon/coldeon/coldeon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/coldeon/.png"
     }
-  ],
-  "order": 0,
-  "species": "cobblemon:coldeon"
+  ]
 }

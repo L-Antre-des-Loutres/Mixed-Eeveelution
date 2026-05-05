@@ -1,14 +1,19 @@
 {
+  "species": "cobblemon:laterneon",
+  "order": 0,
   "variations": [
     {
-      "poser": "cobblemon:laterneon",
-      "texture": "cobblemon:textures/pokemon/laterneon/laterneon.png",
       "aspects": [
         
       ],
-      "model": "cobblemon:laterneon.geo"
+      "model": "cobblemon:laterneon.geo",
+      "texture": "cobblemon:textures/pokemon/laterneon/laterneon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/laterneon/.png"
     }
-  ],
-  "order": 0,
-  "species": "cobblemon:laterneon"
+  ]
 }

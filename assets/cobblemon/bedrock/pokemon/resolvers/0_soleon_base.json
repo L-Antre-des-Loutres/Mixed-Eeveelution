@@ -1,14 +1,19 @@
 {
+  "species": "cobblemon:soleon",
+  "order": 0,
   "variations": [
     {
-      "poser": "cobblemon:soleon",
-      "texture": "cobblemon:textures/pokemon/soleon/soleon.png",
       "aspects": [
         
       ],
-      "model": "cobblemon:soleon.geo"
+      "model": "cobblemon:soleon.geo",
+      "texture": "cobblemon:textures/pokemon/soleon/soleon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/soleon/.png"
     }
-  ],
-  "order": 0,
-  "species": "cobblemon:soleon"
+  ]
 }
