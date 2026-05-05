@@ -29,8 +29,8 @@
                 "showIcon":  false
               }
             ],
-  "primaryType":  "fire",
-  "secondaryType":  "electric",
+  "primaryType":  "dark",
+  "secondaryType":  "fairy",
   "baseStats":  {
            "hp":  55,
            "attack":  85,
