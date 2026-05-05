@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:gloweon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:gloweon.geo",
-      "texture": "cobblemon:textures/pokemon/gloweon/gloweon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/gloweon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:gloweon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:gloweon.geo",
+              "texture":  "cobblemon:textures/pokemon/gloweon/gloweon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/gloweon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

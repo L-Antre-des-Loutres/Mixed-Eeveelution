@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:lyopheon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:lyopheon.geo",
-      "texture": "cobblemon:textures/pokemon/lyopheon/lyopheon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/lyopheon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:lyopheon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:lyopheon.geo",
+              "texture":  "cobblemon:textures/pokemon/lyopheon/lyopheon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/lyopheon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

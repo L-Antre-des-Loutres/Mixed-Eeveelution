@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:laterneon",
+  "speciesId": "cobblemon:laterneon",
+  "displayAspects": [
+    
+  ],
+  "conditionAspects": [
+    
+  ],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": [
+    
+  ]
+}

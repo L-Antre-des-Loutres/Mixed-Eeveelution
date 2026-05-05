@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:laterneon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:laterneon.geo",
-      "texture": "cobblemon:textures/pokemon/laterneon/laterneon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/laterneon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:laterneon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:laterneon.geo",
+              "texture":  "cobblemon:textures/pokemon/laterneon/laterneon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/laterneon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

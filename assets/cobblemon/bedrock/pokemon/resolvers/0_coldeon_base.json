@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:coldeon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:coldeon.geo",
-      "texture": "cobblemon:textures/pokemon/coldeon/coldeon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/coldeon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:coldeon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:coldeon.geo",
+              "texture":  "cobblemon:textures/pokemon/coldeon/coldeon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/coldeon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

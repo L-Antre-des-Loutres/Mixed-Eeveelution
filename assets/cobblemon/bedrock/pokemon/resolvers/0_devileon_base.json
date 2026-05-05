@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:devileon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:devileon.geo",
-      "texture": "cobblemon:textures/pokemon/devileon/devileon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/devileon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:devileon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:devileon.geo",
+              "texture":  "cobblemon:textures/pokemon/devileon/devileon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/devileon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

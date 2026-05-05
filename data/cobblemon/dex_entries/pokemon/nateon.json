@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:nateon",
+  "speciesId": "cobblemon:nateon",
+  "displayAspects": [
+    
+  ],
+  "conditionAspects": [
+    
+  ],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": [
+    
+  ]
+}

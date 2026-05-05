@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:steameon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:steameon.geo",
-      "texture": "cobblemon:textures/pokemon/steameon/steameon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/steameon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:steameon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:steameon.geo",
+              "texture":  "cobblemon:textures/pokemon/steameon/steameon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/steameon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

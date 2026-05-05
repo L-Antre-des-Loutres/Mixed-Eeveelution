@@ -1,0 +1,17 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:mixed_evee",
+  "sortOrder": 20,
+  "entries": [
+    "cobblemon:coldeon",
+    "cobblemon:devileon",
+    "cobblemon:gloweon",
+    "cobblemon:laterneon",
+    "cobblemon:lyopheon",
+    "cobblemon:nateon",
+    "cobblemon:obleon",
+    "cobblemon:oracleon",
+    "cobblemon:soleon",
+    "cobblemon:steameon"
+  ]
+}

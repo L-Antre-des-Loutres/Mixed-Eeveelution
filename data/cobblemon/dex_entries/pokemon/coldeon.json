@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:coldeon",
+  "speciesId": "cobblemon:coldeon",
+  "displayAspects": [
+    
+  ],
+  "conditionAspects": [
+    
+  ],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": [
+    
+  ]
+}

@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:soleon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:soleon.geo",
-      "texture": "cobblemon:textures/pokemon/soleon/soleon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/soleon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:soleon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:soleon.geo",
+              "texture":  "cobblemon:textures/pokemon/soleon/soleon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/soleon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }

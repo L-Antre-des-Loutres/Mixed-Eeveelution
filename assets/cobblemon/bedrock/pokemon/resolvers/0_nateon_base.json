@@ -1,19 +1,21 @@
-{
-  "species": "cobblemon:nateon",
-  "order": 0,
-  "variations": [
-    {
-      "aspects": [
-        
-      ],
-      "model": "cobblemon:nateon.geo",
-      "texture": "cobblemon:textures/pokemon/nateon/nateon.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/nateon/.png"
-    }
-  ]
+﻿{
+  "species":  "cobblemon:nateon",
+  "order":  0,
+  "variations":  [
+            {
+              "aspects":  [
+
+                    ],
+              "model":  "cobblemon:nateon.geo",
+              "texture":  "cobblemon:textures/pokemon/nateon/nateon.png",
+              "poser":  "cobblemon:espeon"
+            },
+            {
+              "aspects":  [
+                      "shiny"
+                    ],
+              "texture":  "cobblemon:textures/pokemon/nateon/.png",
+              "poser":  "cobblemon:espeon"
+            }
+          ]
 }
