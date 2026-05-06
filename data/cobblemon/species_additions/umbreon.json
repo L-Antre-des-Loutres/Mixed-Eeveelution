@@ -1,0 +1,46 @@
+{
+  "target": "cobblemon:umbreon",
+  "evolutions": [
+    {
+      "id": "umbreon_obleon",
+      "variant": "level_up",
+      "result": "obleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "disarmingvoice"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "umbreon_laterneon",
+      "variant": "item_interact",
+      "result": "laterneon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "umbreon_devileon",
+      "variant": "item_interact",
+      "result": "devileon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ember"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    }
+  ]
+}

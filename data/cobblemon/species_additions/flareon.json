@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:flareon",
+  "evolutions": [
+    {
+      "id": "flareon_devileon",
+      "variant": "level_up",
+      "result": "devileon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "pursuit",
+        "snarl"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    },
+    {
+      "id": "flareon_steameon",
+      "variant": "item_interact",
+      "result": "steameon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "flareon_soleon",
+      "variant": "item_interact",
+      "result": "soleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thundershock"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
+    },
+    {
+      "id": "flareon_oracleon",
+      "variant": "level_up",
+      "result": "oracleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "confusion"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    }
+  ]
+}

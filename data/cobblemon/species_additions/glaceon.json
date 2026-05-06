@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:glaceon",
+  "evolutions": [
+    {
+      "id": "glaceon_coldeon",
+      "variant": "level_up",
+      "result": "coldeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "confusion"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "glaceon_lyopheon",
+      "variant": "item_interact",
+      "result": "lyopheon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    }
+  ]
+}
