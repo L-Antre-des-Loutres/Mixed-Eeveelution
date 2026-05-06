@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:espeon",
+  "evolutions": [
+    {
+      "id": "espeon_oracleon",
+      "variant": "item_interact",
+      "result": "oracleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ember"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    },
+    {
+      "id": "espeon_gloweon",
+      "variant": "item_interact",
+      "result": "gloweon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "espeon_coldeon",
+      "variant": "item_interact",
+      "result": "coldeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icywind"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ]
+}

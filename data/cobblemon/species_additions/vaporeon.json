@@ -6,59 +6,61 @@
       "variant": "level_up",
       "result": "gloweon",
       "consumeHeldItem": false,
+      "learnableMoves": [
+        "confusion"
+      ],
       "requirements": [
         {
-          "variant": "level_up",
-          "result": "gloweon",
-          "consumeHeldItem": false,
-          "learnableMoves": [
-            "confusion"
-          ],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": 160
-            },
-            {
-              "variant": "time_range",
-              "range": "day"
-            }
-          ]
+          "variant": "friendship",
+          "amount": 160
         },
         {
-
+          "variant": "time_range",
+          "range": "day"
         }
       ]
     },
     {
       "id": "vaporeon_laterneon",
       "variant": "level_up",
-      "result": "gloweon",
+      "result": "laterneon",
       "consumeHeldItem": false,
+      "learnableMoves": [
+        "pursuit",
+        "snarl"
+      ],
       "requirements": [
         {
-          "variant": "level_up",
-          "result": "laterneon",
-          "consumeHeldItem": false,
-          "learnableMoves": [
-            "confusion"
-          ],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": 160
-            },
-            {
-              "variant": "time_range",
-              "range": "night"
-            }
-          ]
+          "variant": "friendship",
+          "amount": 160
         },
         {
-
+          "variant": "time_range",
+          "range": "night"
         }
       ]
+    },
+    {
+      "id": "vaporeon_steameon",
+      "variant": "item_interact",
+      "result": "steameon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ember"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    },
+    {
+      "id": "vaporeon_lyopheon",
+      "variant": "item_interact",
+      "result": "lyopheon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icywind"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
     }
   ]
-
 }

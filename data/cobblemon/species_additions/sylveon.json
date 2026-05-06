@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:sylveon",
+  "evolutions": [
+    {
+      "id": "sylveon_nateon",
+      "variant": "item_interact",
+      "result": "nateon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "razorleaf"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+    },
+    {
+      "id": "sylveon_obleon",
+      "variant": "level_up",
+      "result": "obleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "pursuit",
+        "snarl"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ]
+}

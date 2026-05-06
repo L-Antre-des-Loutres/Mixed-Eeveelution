@@ -1,13 +1,13 @@
 {
-  "target": "cobblemon:glaceon",
+  "target": "cobblemon:umbreon",
   "evolutions": [
     {
-      "id": "glaceon_coldeon",
+      "id": "umbreon_obleon",
       "variant": "level_up",
-      "result": "coldeon",
+      "result": "obleon",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "confusion"
+        "disarmingvoice"
       ],
       "requirements": [
         {
@@ -21,15 +21,26 @@
       ]
     },
     {
-      "id": "glaceon_lyopheon",
+      "id": "umbreon_laterneon",
       "variant": "item_interact",
-      "result": "lyopheon",
+      "result": "laterneon",
       "consumeHeldItem": false,
       "learnableMoves": [
         "watergun"
       ],
       "requirements": [],
       "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "umbreon_devileon",
+      "variant": "item_interact",
+      "result": "devileon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ember"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
     }
   ]
 }
