@@ -3,15 +3,15 @@
   "id": "cobblemon:mixed_eeveelution",
   "sortOrder": 20,
   "entries": [
-    "cobblemon:coldeon",
-    "cobblemon:devileon",
-    "cobblemon:gloweon",
     "cobblemon:laterneon",
-    "cobblemon:lyopheon",
-    "cobblemon:nateon",
+    "cobblemon:devileon",
     "cobblemon:obleon",
-    "cobblemon:oracleon",
     "cobblemon:soleon",
-    "cobblemon:steameon"
+    "cobblemon:nateon",
+    "cobblemon:steameon",
+    "cobblemon:oracleon",
+    "cobblemon:lyopheon",
+    "cobblemon:coldeon",
+    "cobblemon:gloweon"
   ]
 }

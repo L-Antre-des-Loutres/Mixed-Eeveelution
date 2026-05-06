@@ -43,8 +43,7 @@
   "experienceGroup": "fast",
   "eggCycles": 25,
   "eggGroups": [
-    "grass",
-    "monster"
+    "field"
   ],
   "baseFriendship": 70,
   "evYield": {
@@ -299,3 +298,4 @@
     }
   }
 }
+

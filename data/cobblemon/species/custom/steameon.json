@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "steameon",
-  "nationalPokedexNumber": 1026,
+  "nationalPokedexNumber": 1031,
   "labels": [
     "custom"
   ],
@@ -43,8 +43,7 @@
   "experienceGroup": "fast",
   "eggCycles": 25,
   "eggGroups": [
-    "grass",
-    "monster"
+    "field"
   ],
   "baseFriendship": 70,
   "evYield": {
@@ -281,3 +280,4 @@
     }
   }
 }
+
