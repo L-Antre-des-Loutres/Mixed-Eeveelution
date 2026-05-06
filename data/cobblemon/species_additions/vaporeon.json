@@ -1,0 +1,64 @@
+{
+  "target": "cobblemon:vaporeon",
+  "evolutions": [
+    {
+      "id": "vaporeon_gloweon",
+      "variant": "level_up",
+      "result": "gloweon",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level_up",
+          "result": "gloweon",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "confusion"
+          ],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": 160
+            },
+            {
+              "variant": "time_range",
+              "range": "day"
+            }
+          ]
+        },
+        {
+
+        }
+      ]
+    },
+    {
+      "id": "vaporeon_laterneon",
+      "variant": "level_up",
+      "result": "gloweon",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level_up",
+          "result": "laterneon",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "confusion"
+          ],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": 160
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ]
+        },
+        {
+
+        }
+      ]
+    }
+  ]
+
+}

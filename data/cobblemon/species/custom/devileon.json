@@ -87,8 +87,8 @@
     "h:simple"
   ],
   "evolutions": [
-    
   ],
+  "preEvolution": "flareon",
   "baseScale": 1,
   "hitbox": {
     "width": 0.8,

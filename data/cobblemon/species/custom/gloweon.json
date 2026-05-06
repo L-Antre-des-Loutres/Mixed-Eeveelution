@@ -89,6 +89,7 @@
   "evolutions": [
     
   ],
+  "preEvolution": "vaporeon",
   "baseScale": 1,
   "hitbox": {
     "width": 0.8,

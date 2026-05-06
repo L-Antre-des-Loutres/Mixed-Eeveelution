@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:flareon",
+  "evolutions": [
+    {
+      "id": "flareon_devileon",
+      "variant": "level_up",
+      "result": "devileon",
+      "consumeHeldItem": false,
+      "requirements": [
+        {
+          "variant": "level_up",
+          "result": "espeon",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "pursuit",
+            "snarl"
+          ],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": 160
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
