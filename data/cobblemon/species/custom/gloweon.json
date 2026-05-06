@@ -18,17 +18,8 @@
       "name": "normal"
     }
   ],
-  "shoulderMountable": true,
-  "shoulderEffects": [
-    {
-      "type": "potion_effect",
-      "effect": "minecraft:haste",
-      "amplifier": 1,
-      "ambient": true,
-      "showParticles": false,
-      "showIcon": false
-    }
-  ],
+  "shoulderMountable": false,
+  "shoulderEffects": [],
   "primaryType": "psychic",
   "secondaryType": "water",
   "baseStats": {
