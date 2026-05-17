@@ -1,0 +1,90 @@
+EON - 10/28
+ABI - 9
+MOV - 7
+
+>> Dark <<
+
+[DONE] Dark/Water - Lanterneon Lanternity Lanternivee
+- ABI | The Pokemon is immune to Dark-type moves.
+
+[TODO] Dark/Electric
+
+[DONE] Dark/Fire - Devileon
+- MOV | Fire-type move super-effective on Ghost and Psychic types.
+
+[TODO] Dark/Psychic - Nighteon
+- MOV |Nom-night : Dark-type move that deal twice the damage if the opponent is sleeping but has a 20% chance to wake it up.
+
+[TODO] Dark/Grass - Vineon
+- ABI | Vine Armor : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
+
+[TODO] Dark/Ice
+- MOV | Iceage : Powerfull ice-type move that reduce the special defense of all Pokemon on the field.
+
+[DONE] Dark/Fairy Cycleon
+
+>> Electric <<
+
+[TODO] Electric/Water
+
+[DONE] Electric/Fire - Soleon
+- ABI | Heals the Pokemon 1/16 HP each turn when the sun is active.
+
+[TODO] Electric/Psychic
+
+[TODO] Electric/Grass - Surgeon
+- ABI | The Electric terrain boost the power of this Pokemon's Grass-type moves by 50%.
+
+[TODO] Electric/Ice
+
+[TODO] Electric/Fairy
+
+>> Fairy <<
+
+[TODO] Fairy/Water - Misteon
+- ABI | The Pokemon summons the rain as well as the misty terrain when entering battle.
+
+[TODO] Fairy/Fire - Lucideon
+- ABI | The Pokemon summons the harsh sunlight as well as the misty terrain when entering battle.
+
+[TODO] Fairy/Psychic - Dreameon
+- MOV | Dreamsnack : Fairy-type move that heals the user 75% of the damage dealt if the opponent is sleeping.
+
+[DONE] Fairy/Grass - Nateon
+- MOV | Grass-type move that boost the user's defense stat. If the grassy terrain is active, it heals the user 50% of its max HP.
+
+[TODO] Fairy/Ice - Raideon
+- ABI | The Pokemon summons the snow as well as the misty terrain when entering battle.
+
+>> Fire <<
+
+[DONE] Fire/Water - Steameon
+- ABI | Removes the Pokemon's fire-type weaknesses.
+
+[DONE] Fire/Psychic - Oracleon
+- MOV | Fire-type move that can confuse the opponent.
+
+[TODO] Fire/Grass
+
+[TODO] Fire/Ice
+
+>> Grass <<
+
+[TODO] Grass/Water
+
+[TODO] Grass/Psychic
+
+[TODO] Grass/Ice
+
+>> Ice <<
+
+[DONE] Ice/Water - Lyopheon
+- MOV | Ice-type move that makes it snow for 5 turns. If it's already snowing, it sets up Aurora Veil.
+
+[DONE] Ice/Psychic - Coldeon
+- ABI | Every attacking move that hits the oppenent has a 10% chance to freeze.
+
+>> Psychic <<
+
+[DONE] Psychic/Water - Gloweon
+- MOV | Water-type move that sets up a 2 turns Psychic terrain if used under the rain.
