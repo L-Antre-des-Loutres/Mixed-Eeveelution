@@ -231,9 +231,9 @@
     "special:sing"
   ],
   "abilities": [
-    "voltabsorb",
-    "flashfire",
-    "h:simple"
+    "solarheal",
+    "solarheal",
+    "h:solarheal"
   ],
   "evolutions": [],
   "baseScale": 1,
