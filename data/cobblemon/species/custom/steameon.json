@@ -230,9 +230,9 @@
     "special:sing"
   ],
   "abilities": [
-    "voltabsorb",
-    "flashfire",
-    "h:simple"
+    "steamshield",
+    "steamshield",
+    "h:steamshield"
   ],
   "evolutions": [],
   "baseScale": 1,

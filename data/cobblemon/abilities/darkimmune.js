@@ -8,5 +8,5 @@
     flags: { breakable: 1 },
     name: "Dark immune",
         rating: 3,
-    num: 1e3
+    num: 1000
 })

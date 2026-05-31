@@ -28,7 +28,7 @@ MOV - 7
 [TODO] Electric/Water
 
 [DONE] Electric/Fire - Soleon
-- ABI | Heals the Pokemon 1/16 HP each turn when the sun is active.
+- [DONE] ABI | Heals the Pokemon 1/16 HP each turn when the sun is active.
 
 [TODO] Electric/Psychic
 
@@ -59,7 +59,7 @@ MOV - 7
 >> Fire <<
 
 [DONE] Fire/Water - Steameon
-- ABI | Removes the Pokemon's fire-type weaknesses.
+- [DONE] ABI | Steam Shield Removes the Pokemon's fire-type weaknesses.
 
 [DONE] Fire/Psychic - Oracleon
 - MOV | Fire-type move that can confuse the opponent.
