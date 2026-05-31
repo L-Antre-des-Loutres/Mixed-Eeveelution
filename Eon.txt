@@ -82,7 +82,7 @@ MOV - 7
 - MOV | Ice-type move that makes it snow for 5 turns. If it's already snowing, it sets up Aurora Veil.
 
 [DONE] Ice/Psychic - Coldeon
-- ABI | Every attacking move that hits the oppenent has a 10% chance to freeze.
+- [DONE] ABI | Frostbite : Every attacking move that hits the oppenent has a 10% chance to freeze.
 
 >> Psychic <<
 
