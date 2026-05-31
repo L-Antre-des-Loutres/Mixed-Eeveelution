@@ -5,7 +5,7 @@ MOV - 7
 >> Dark <<
 
 [DONE] Dark/Water - Lanterneon Lanternity Lanternivee
-- ABI | The Pokemon is immune to Dark-type moves.
+- [DONE] ABI | Dark immune : The Pokemon is immune to Dark-type moves.
 
 [TODO] Dark/Electric
 
@@ -16,7 +16,7 @@ MOV - 7
 - MOV |Nom-night : Dark-type move that deal twice the damage if the opponent is sleeping but has a 20% chance to wake it up.
 
 [TODO] Dark/Grass - Vineon
-- ABI | Vine Armor : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
+- [DONE] ABI | Vine Armor : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
 
 [TODO] Dark/Ice
 - MOV | Iceage : Powerfull ice-type move that reduce the special defense of all Pokemon on the field.
