@@ -18,5 +18,17 @@
   "cobblemon.species.soleon.name": "Soleon",
   "cobblemon.species.soleon.desc": "Il accumule l'énergie solaire le jour pour libérer des décharges électriques dévastatrices la nuit. Sa fourrure crépite de chaleur statique.",
   "cobblemon.species.steameon.name": "Steameon",
-  "cobblemon.species.steameon.desc": "Sa température corporelle est si élevée que l'eau se transforme instantanément en vapeur à son contact, créant un brouillard défensif permanent."
+  "cobblemon.species.steameon.desc": "Sa température corporelle est si élevée que l'eau se transforme instantanément en vapeur à son contact, créant un brouillard défensif permanent.",
+  "cobblemon.move.spiritburn": "Brûlure Spirituelle",
+  "cobblemon.move.spiritburn.desc": "Un feu spectral qui brûle l'âme. Il est super efficace contre les types Spectre et Psy.",
+  "cobblemon.move.iceage": "Ère Glaciaire",
+  "cobblemon.move.iceage.desc": "Une puissante vague de froid qui glace tout le terrain, abaissant la Défense Spéciale de tous les Pokémon.",
+  "cobblemon.move.floralshield": "Bouclier Floral",
+  "cobblemon.move.floralshield.desc": "Le lanceur crée une barrière protectrice de fleurs qui augmente sa Défense. Si le Champ Herbu est actif, le lanceur restaure aussi des PV.",
+  "cobblemon.move.oracleflare": "Éclat d'Oracle",
+  "cobblemon.move.oracleflare.desc": "Le lanceur libère une flamme mystérieuse qui a 30% de chances de rendre la cible confuse.",
+  "cobblemon.move.aurorachill": "Frisson d'Aurore",
+  "cobblemon.move.aurorachill.desc": "Le lanceur refroidit l'air pour invoquer la Neige pendant 5 tours. S'il neige déjà, il installe un Voile Aurore pour protéger l'équipe.",
+  "cobblemon.move.psychicpuddle": "Flaque Psychique",
+  "cobblemon.move.psychicpuddle.desc": "Le lanceur crée une flaque d'énergie psychique. Si utilisé sous la Pluie, installe un Champ Psychique pendant 2 tours."
 }

@@ -19,5 +19,17 @@
   "cobblemon.species.soleon.name": "Soleon",
   "cobblemon.species.soleon.desc": "It gathers solar energy during the day to unleash devastating electric bursts at night. Its fur crackles with static heat.",
   "cobblemon.species.steameon.name": "Steameon",
-  "cobblemon.species.steameon.desc": "Its body temperature is so high that water turns to steam instantly upon contact, creating a permanent defensive fog."
+  "cobblemon.species.steameon.desc": "Its body temperature is so high that water turns to steam instantly upon contact, creating a permanent defensive fog.",
+  "cobblemon.move.spiritburn": "Spirit Burn",
+  "cobblemon.move.spiritburn.desc": "A spectral fire that burns the soul. It is super effective against Ghost and Psychic types.",
+  "cobblemon.move.iceage": "Ice Age",
+  "cobblemon.move.iceage.desc": "A powerful freezing blast that chills the entire battlefield, lowering the Special Defense of all Pokémon.",
+  "cobblemon.move.floralshield": "Floral Shield",
+  "cobblemon.move.floralshield.desc": "The user creates a defensive barrier of flowers that raises its Defense. If Grassy Terrain is active, the user also restores HP.",
+  "cobblemon.move.oracleflare": "Oracle Flare",
+  "cobblemon.move.oracleflare.desc": "The user releases a mysterious flame that has a 30% chance to confuse the target.",
+  "cobblemon.move.aurorachill": "Aurora Chill",
+  "cobblemon.move.aurorachill.desc": "The user chills the air to summon Snow for 5 turns. If it is already snowing, it sets up an Aurora Veil to protect the team.",
+  "cobblemon.move.psychicpuddle": "Psychic Puddle",
+  "cobblemon.move.psychicpuddle.desc": "The user creates a puddle of psychic energy. If used under Rain, it sets up a Psychic Terrain for 2 turns."
 }
