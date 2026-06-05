@@ -247,9 +247,9 @@
     "special:sing"
   ],
   "abilities": [
-    "voltabsorb",
-    "flashfire",
-    "h:simple"
+    "darkimmune",
+    "darkimmune",
+    "h:darkimmune"
   ],
   "evolutions": [],
   "preEvolution": "vaporeon",

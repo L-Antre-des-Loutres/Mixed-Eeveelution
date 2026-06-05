@@ -5,21 +5,21 @@ MOV - 7
 >> Dark <<
 
 [DONE] Dark/Water - Lanterneon Lanternity Lanternivee
-- ABI | The Pokemon is immune to Dark-type moves.
+- [DONE] ABI | Dark immune : The Pokemon is immune to Dark-type moves.
 
 [TODO] Dark/Electric
 
 [DONE] Dark/Fire - Devileon
-- MOV | Fire-type move super-effective on Ghost and Psychic types.
+- [DONE] MOV | Spirit Burn : Fire-type move super-effective on Ghost and Psychic types.
 
 [TODO] Dark/Psychic - Nighteon
 - MOV |Nom-night : Dark-type move that deal twice the damage if the opponent is sleeping but has a 20% chance to wake it up.
 
 [TODO] Dark/Grass - Vineon
-- ABI | Vine Armor : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
+- [DONE] ABI | Vine Armor : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
 
 [TODO] Dark/Ice
-- MOV | Iceage : Powerfull ice-type move that reduce the special defense of all Pokemon on the field.
+- [DONE] MOV | Ice Age : Powerfull ice-type move that reduce the special defense of all Pokemon on the field.
 
 [DONE] Dark/Fairy Cycleon
 
@@ -28,7 +28,7 @@ MOV - 7
 [TODO] Electric/Water
 
 [DONE] Electric/Fire - Soleon
-- ABI | Heals the Pokemon 1/16 HP each turn when the sun is active.
+- [DONE] ABI | Heals the Pokemon 1/16 HP each turn when the sun is active.
 
 [TODO] Electric/Psychic
 
@@ -51,7 +51,7 @@ MOV - 7
 - MOV | Dreamsnack : Fairy-type move that heals the user 75% of the damage dealt if the opponent is sleeping.
 
 [DONE] Fairy/Grass - Nateon
-- MOV | Grass-type move that boost the user's defense stat. If the grassy terrain is active, it heals the user 50% of its max HP.
+- [DONE] MOV | Floralshield : Grass-type move that boost the user's defense stat. If the grassy terrain is active, it heals the user 50% of its max HP.
 
 [TODO] Fairy/Ice - Raideon
 - ABI | The Pokemon summons the snow as well as the misty terrain when entering battle.
@@ -59,10 +59,10 @@ MOV - 7
 >> Fire <<
 
 [DONE] Fire/Water - Steameon
-- ABI | Removes the Pokemon's fire-type weaknesses.
+- [DONE] ABI | Steam Shield Removes the Pokemon's fire-type weaknesses.
 
 [DONE] Fire/Psychic - Oracleon
-- MOV | Fire-type move that can confuse the opponent.
+- [DONE] MOV | Oracle Flare : Fire-type move that can confuse the opponent.
 
 [TODO] Fire/Grass
 
@@ -79,12 +79,12 @@ MOV - 7
 >> Ice <<
 
 [DONE] Ice/Water - Lyopheon
-- MOV | Ice-type move that makes it snow for 5 turns. If it's already snowing, it sets up Aurora Veil.
+- [DONE] MOV | Aurora Chill : Ice-type move that makes it snow for 5 turns. If it's already snowing, it sets up Aurora Veil.
 
 [DONE] Ice/Psychic - Coldeon
-- ABI | Every attacking move that hits the oppenent has a 10% chance to freeze.
+- [DONE] ABI | Frostbite : Every attacking move that hits the oppenent has a 10% chance to freeze.
 
 >> Psychic <<
 
 [DONE] Psychic/Water - Gloweon
-- MOV | Water-type move that sets up a 2 turns Psychic terrain if used under the rain.
+- [DONE] MOV | Psychic Puddle : Water-type move that sets up a 2 turns Psychic terrain if used under the rain.

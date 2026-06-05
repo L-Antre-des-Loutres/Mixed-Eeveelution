@@ -243,9 +243,9 @@
     "special:sing"
   ],
   "abilities": [
-    "voltabsorb",
-    "flashfire",
-    "h:simple"
+    "frostbite",
+    "frostbite",
+    "h:frostbite"
   ],
   "evolutions": [],
   "preEvolution": "glaceon",
