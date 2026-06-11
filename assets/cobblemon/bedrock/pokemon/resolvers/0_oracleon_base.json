@@ -1,4 +1,4 @@
-﻿{
+{
   "species": "cobblemon:oracleon",
   "order": 0,
   "variations": [
@@ -11,7 +11,7 @@
     {
       "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/oracleon/oracleon_shiny.png",
-      "poser": "cobblemon:espeon"
+      "poser": "cobblemon:blank_placeholder"
     }
   ]
 }
