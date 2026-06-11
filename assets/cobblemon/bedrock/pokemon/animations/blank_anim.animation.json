@@ -7,10 +7,31 @@
 		"animation.blank_anim.cry": {
 			"loop": true
 		},
-		"animation.blank_anim.faint": {
-			"loop": "hold_on_last_frame"
+		"animation.blank_anim.ground_idle": {
+			"loop": true
 		},
-		"animation.blank_anim.recoil": {
+		"animation.blank_anim.ground_walk": {
+			"loop": true
+		},
+		"animation.blank_anim.ground_run": {
+			"loop": true
+		},
+		"animation.blank_anim.sleep": {
+			"loop": true
+		},
+		"animation.blank_anim.air_idle": {
+			"loop": true
+		},
+		"animation.blank_anim.air_fly": {
+			"loop": true
+		},
+		"animation.blank_anim.water_idle": {
+			"loop": true
+		},
+		"animation.blank_anim.water_swim": {
+			"loop": true
+		},
+		"animation.blank_anim.battle_idle": {
 			"loop": true
 		},
 		"animation.blank_anim.physical_move": {
@@ -19,22 +40,19 @@
 		"animation.blank_anim.special_move": {
 			"loop": true
 		},
-		"animation.blank_anim.special_move2": {
+		"animation.blank_anim.status_move": {
 			"loop": true
 		},
-		"animation.blank_anim.ground_idle": {
+		"animation.blank_anim.recoil": {
 			"loop": true
 		},
-		"animation.blank_anim.sleep": {
+		"animation.blank_anim.faint": {
+			"loop": "hold_on_last_frame"
+		},
+		"animation.blank_anim.shoulder_left": {
 			"loop": true
 		},
-		"animation.blank_anim.battle_idle": {
-			"loop": true
-		},
-		"animation.blank_anim.ground_walk": {
-			"loop": true
-		},
-		"animation.blank_anim.ground_run": {
+		"animation.blank_anim.shoulder_right": {
 			"loop": true
 		}
 	}
