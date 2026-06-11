@@ -54,6 +54,16 @@
           }
         }
       },
+      "minecraft:particle_appearance_tinting": {
+        "color": {
+          "interpolant": "v.particle_age / v.particle_lifetime",
+          "gradient": {
+            "0.0": "#FFDDEEFF",
+            "0.5": "#FFAAcCFF",
+            "1.0": "#FF6688EE"
+          }
+        }
+      },
       "cobblemon:emitter_space": {
         "scaling": "entity"
       }
