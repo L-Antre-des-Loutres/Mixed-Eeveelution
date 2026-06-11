@@ -1,0 +1,34 @@
+{
+  "particleEffects": [
+    {
+      "id": "minecraft:white_smoke",
+      "locator": "neck_smoke_left",
+      "viaPoseTypes": [
+        "NONE",
+        "STAND",
+        "WALK",
+        "HOVER",
+        "FLOAT",
+        "SWIM",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT"
+      ]
+    },
+    {
+      "id": "minecraft:white_smoke",
+      "locator": "neck_smoke_right",
+      "viaPoseTypes": [
+        "NONE",
+        "STAND",
+        "WALK",
+        "HOVER",
+        "FLOAT",
+        "SWIM",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT"
+      ]
+    }
+  ]
+}

@@ -6,12 +6,12 @@
       "aspects": [],
       "model": "cobblemon:steameon.geo",
       "texture": "cobblemon:textures/pokemon/steameon/steameon.png",
-      "poser": "cobblemon:blank_placeholder"
+      "poser": "cobblemon:steameon"
     },
     {
       "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/steameon/steameon_shiny.png",
-      "poser": "cobblemon:blank_placeholder"
+      "poser": "cobblemon:steameon"
     }
   ]
 }
