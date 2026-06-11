@@ -1,0 +1,69 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [0, 0, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0, 0],
+  "rootBone": "root",
+  "animations": {
+    "cry": "q.bedrock_stateful('blank_anim', 'cry')",
+    "faint": "q.bedrock_primary('blank_anim', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('blank_anim', 'recoil')",
+    "physical": "q.bedrock_primary('blank_anim', 'physical_move', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('blank_anim', 'special_move', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('blank_anim', 'special_move', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "portrait": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('blank_anim', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "sleep": {
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('blank_anim', 'sleep')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('blank_anim', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    }
+  }
+}

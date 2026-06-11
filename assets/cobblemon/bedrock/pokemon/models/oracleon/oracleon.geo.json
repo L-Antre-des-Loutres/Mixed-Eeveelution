@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.espeon",
+				"identifier": "geometry.oracleon",
 				"texture_width": 128,
 				"texture_height": 103,
 				"visible_bounds_width": 5,

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.blank_anim.blink": {
+			"loop": true
+		},
+		"animation.blank_anim.cry": {
+			"loop": true
+		},
+		"animation.blank_anim.faint": {
+			"loop": "hold_on_last_frame"
+		},
+		"animation.blank_anim.recoil": {
+			"loop": true
+		},
+		"animation.blank_anim.physical_move": {
+			"loop": true
+		},
+		"animation.blank_anim.special_move": {
+			"loop": true
+		},
+		"animation.blank_anim.special_move2": {
+			"loop": true
+		},
+		"animation.blank_anim.ground_idle": {
+			"loop": true
+		},
+		"animation.blank_anim.sleep": {
+			"loop": true
+		},
+		"animation.blank_anim.battle_idle": {
+			"loop": true
+		},
+		"animation.blank_anim.ground_walk": {
+			"loop": true
+		},
+		"animation.blank_anim.ground_run": {
+			"loop": true
+		}
+	}
+}

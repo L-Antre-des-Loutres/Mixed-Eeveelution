@@ -1,21 +1,17 @@
 ﻿{
-  "species":  "cobblemon:oracleon",
-  "order":  0,
-  "variations":  [
-            {
-              "aspects":  [
-
-                    ],
-              "model":  "cobblemon:oracleon.geo",
-              "texture":  "cobblemon:textures/pokemon/oracleon/oracleon.png",
-              "poser":  "cobblemon:espeon"
-            },
-            {
-              "aspects":  [
-                      "shiny"
-                    ],
-              "texture":  "cobblemon:textures/pokemon/oracleon/.png",
-              "poser":  "cobblemon:espeon"
-            }
-          ]
+  "species": "cobblemon:oracleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:oracleon.geo",
+      "texture": "cobblemon:textures/pokemon/oracleon/oracleon.png",
+      "poser": "cobblemon:blank_placeholder"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/oracleon/oracleon_shiny.png",
+      "poser": "cobblemon:espeon"
+    }
+  ]
 }
