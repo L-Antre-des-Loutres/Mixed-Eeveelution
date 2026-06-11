@@ -537,6 +537,26 @@
 					{
 						"effect": "steameon_smoke",
 						"locator": "neck_smoke_right"
+					},
+					{
+						"effect": "steameon_smoke",
+						"locator": "backleg_smoke_left"
+					},
+					{
+						"effect": "steameon_smoke",
+						"locator": "backleg_smoke_right"
+					},
+					{
+						"effect": "steameon_smoke",
+						"locator": "frontleg_smoke_left"
+					},
+					{
+						"effect": "steameon_smoke",
+						"locator": "frontleg_smoke_right"
+					},
+					{
+						"effect": "steameon_smoke",
+						"locator": "head_smoke"
 					}
 				]
 			}
