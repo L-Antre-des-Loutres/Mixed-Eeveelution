@@ -211,6 +211,24 @@
 				"body": {
 					"position": [0, -0.25, "0+math.sin(q.anim_time*90*3*2)*0.01"]
 				},
+				"tail": {
+					"rotation": [5, "0-math.sin(q.anim_time*90*3)*5", 0]
+				},
+				"tail2": {
+					"rotation": ["-2+math.cos(q.anim_time*90*3*2)*4", "0-math.sin(q.anim_time*90*3-30)*7", 0]
+				},
+				"tail3": {
+					"rotation": ["-2+math.cos(q.anim_time*90*3*2-30)*5", "0-math.sin(q.anim_time*90*3-60)*9", 0]
+				},
+				"tail4": {
+					"rotation": ["-2+math.cos(q.anim_time*90*3*2-60)*6", "0-math.sin(q.anim_time*90*3-90)*11", 0]
+				},
+				"tail5": {
+					"rotation": ["-2+math.cos(q.anim_time*90*3*2-90)*7", "0-math.sin(q.anim_time*90*3-120)*13", 0]
+				},
+				"tail6": {
+					"rotation": ["-2+math.cos(q.anim_time*90*3*2-120)*8", "0-math.sin(q.anim_time*90*3-150)*15", "0+math.cos(q.anim_time*90*3-150)*5"]
+				},
 				"frontleg_left": {
 					"rotation": {
 						"0.0": [-15, 0, 0],

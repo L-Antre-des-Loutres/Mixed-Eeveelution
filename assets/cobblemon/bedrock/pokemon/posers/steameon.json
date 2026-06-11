@@ -43,7 +43,9 @@
     "walking": {
       "poseTypes": ["WALK"],
       "animations": [
-        "q.bedrock('blank_anim', 'ground_walk')"
+        "q.look('head')",
+        "q.bedrock('steameon', 'ground_walk')",
+        "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
