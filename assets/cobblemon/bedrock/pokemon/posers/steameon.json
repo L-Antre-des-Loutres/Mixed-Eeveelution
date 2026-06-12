@@ -1,11 +1,11 @@
 {
-  "portraitScale": 1,
-  "portraitTranslation": [0, 0, 0],
-  "profileScale": 1,
-  "profileTranslation": [0, 0, 0],
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.75, -0.45, 0],
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.25, 0],
   "rootBone": "steameon",
   "animations": {
-    "cry": "q.bedrock_stateful('blank_anim', 'cry')",
+    "cry": "q.bedrock_stateful('steameon', 'cry')",
     "faint": "q.bedrock_primary('steameon', 'faint', q.curve('one'))",
     "recoil": "q.bedrock_stateful('blank_anim', 'recoil')",
     "physical": "q.bedrock_primary('blank_anim', 'physical_move', q.curve('symmetrical_wide'))",
@@ -34,7 +34,7 @@
       "poseTypes": ["PORTRAIT", "PROFILE"],
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'ground_idle')"
+        "q.bedrock('steameon', 'ground_idle')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
@@ -55,24 +55,16 @@
       "transformTicks": 10,
       "poseTypes": ["SLEEP"],
       "animations": [
-        "q.bedrock('blank_anim', 'sleep')"
+        "q.bedrock('steameon', 'sleep')",
+        "q.bedrock('steameon', 'idle_particles')"
       ]
     },
     "hover": {
       "poseTypes": ["HOVER"],
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'air_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "fly": {
-      "poseTypes": ["FLY"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'air_fly')"
+        "q.bedrock('steameon', 'air_idle')",
+        "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
@@ -82,7 +74,8 @@
       "poseTypes": ["FLOAT"],
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'water_idle')"
+        "q.bedrock('steameon', 'water_idle')",
+        "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
