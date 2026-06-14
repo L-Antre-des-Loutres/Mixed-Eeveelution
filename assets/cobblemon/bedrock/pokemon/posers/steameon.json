@@ -96,7 +96,8 @@
       "isBattle": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'battle_idle')"
+        "q.bedrock('steameon', 'battle_idle')",
+        "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
