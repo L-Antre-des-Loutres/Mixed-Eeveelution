@@ -32,7 +32,7 @@
       "isTouchingWater": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('steameon', 'water_idle')",
+        "q.bedrock('steameon', 'water_swim')",
         "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
@@ -56,7 +56,7 @@
       "poseTypes": ["SWIM"],
       "animations": [
         "q.look('head')",
-        "q.bedrock('steameon', 'water_idle')",
+        "q.bedrock('steameon', 'water_swim')",
         "q.bedrock('steameon', 'idle_particles')"
       ],
       "quirks": [
@@ -68,6 +68,7 @@
       "transformTicks": 10,
       "isBattle": false,
       "isTouchingWater": false,
+      "condition": "!q.in_air",
       "poseTypes": ["STAND", "NONE"],
       "animations": [
         "q.look('head')",
@@ -91,9 +92,38 @@
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
       ]
     },
+    "air": {
+      "poseTypes": ["STAND", "WALK", "NONE"],
+      "isTouchingWater": false,
+      "condition": "q.in_air",
+      "transformTicks": 3,
+      "transformToTicks": 3,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('steameon', 'air_idle')",
+        "q.bedrock('steameon', 'idle_particles')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "running": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('steameon', 'ground_run')",
+        "q.bedrock('steameon', 'idle_particles')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
     "walking": {
       "poseTypes": ["WALK"],
       "isTouchingWater": false,
+      "condition": "!q.in_air && !q.is_sprinting",
       "animations": [
         "q.look('head')",
         "q.bedrock('steameon', 'ground_walk')",

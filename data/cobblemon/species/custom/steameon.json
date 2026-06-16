@@ -257,8 +257,13 @@
       "fly": {
         "canFly": false
       },
+      "walk": {
+        "walkSpeed": 0.5
+      },
       "swim": {
-        "canBreatheUnderwater": true
+        "swimSpeed": 0.5,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "resting": {
         "canSleep": true,
@@ -267,6 +272,83 @@
         "light": "0-12"
       }
     }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "80-100",
+          "JUMP": "50-75",
+          "SKILL": "50-75",
+          "SPEED": "80-100",
+          "STAMINA": "75-100"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.water_sufrace.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.water_surface.mono",
+            "submerged": false,
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.underwater.stereo",
+            "submerged": true,
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "75-100",
+          "JUMP": "40-60",
+          "SKILL": "55-80",
+          "SPEED": "75-100",
+          "STAMINA": "70-95"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat1",
+        "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "poseOffsets": [
+          {
+            "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "poseTypes": ["STAND"]
+          },
+          {
+            "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "poseTypes": ["WALK"]
+          },
+          {
+            "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "poseTypes": ["FLOAT"]
+          },
+          {
+            "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "poseTypes": ["SWIM"]
+          }
+        ]
+      }
+    ]
   }
 }
 
