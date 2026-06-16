@@ -258,9 +258,7 @@
         "canFly": false
       },
       "swim": {
-        "swimSpeed": 0.1,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true
       },
       "resting": {
         "canSleep": true,
