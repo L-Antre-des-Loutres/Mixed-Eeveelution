@@ -48,12 +48,6 @@
 		},
 		"animation.blank_anim.faint": {
 			"loop": "hold_on_last_frame"
-		},
-		"animation.blank_anim.shoulder_left": {
-			"loop": true
-		},
-		"animation.blank_anim.shoulder_right": {
-			"loop": true
 		}
 	}
 }

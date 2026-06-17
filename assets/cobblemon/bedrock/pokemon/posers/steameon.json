@@ -7,10 +7,10 @@
   "animations": {
     "cry": "q.bedrock_stateful('steameon', 'cry')",
     "faint": "q.bedrock_primary('steameon', 'faint', q.curve('one'))",
-    "recoil": "q.bedrock_stateful('blank_anim', 'recoil')",
-    "physical": "q.bedrock_primary('blank_anim', 'physical_move', q.curve('symmetrical_wide'))",
-    "special": "q.bedrock_primary('blank_anim', 'special_move', q.curve('symmetrical_wide'))",
-    "status": "q.bedrock_primary('blank_anim', 'status_move', q.curve('symmetrical_wide'))"
+    "recoil": "q.bedrock_stateful('steameon', 'recoil')",
+    "physical": "q.bedrock_primary('steameon', 'physical_move', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('steameon', 'special_move', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('steameon', 'status_move', q.curve('symmetrical_wide'))"
   },
   "poses": {
     "surface_idle": {
@@ -159,26 +159,6 @@
         "q.look('head')",
         "q.bedrock('steameon', 'battle_idle')",
         "q.bedrock('steameon', 'idle_particles')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "shoulder_left": {
-      "poseTypes": ["SHOULDER_LEFT"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'shoulder_left')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "shoulder_right": {
-      "poseTypes": ["SHOULDER_RIGHT"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'shoulder_right')"
       ],
       "quirks": [
         "q.bedrock_quirk('steameon', q.array('blink'), 6, 20, 1)"
