@@ -21,9 +21,9 @@
       ]
     },
     {
-      "id": "umbreon_laterneon",
+      "id": "umbreon_lanterneon",
       "variant": "item_interact",
-      "result": "laterneon",
+      "result": "lanterneon",
       "consumeHeldItem": false,
       "learnableMoves": [
         "watergun"

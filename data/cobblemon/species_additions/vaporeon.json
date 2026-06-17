@@ -21,9 +21,9 @@
       ]
     },
     {
-      "id": "vaporeon_laterneon",
+      "id": "vaporeon_lanterneon",
       "variant": "level_up",
-      "result": "laterneon",
+      "result": "lanterneon",
       "consumeHeldItem": false,
       "learnableMoves": [
         "pursuit",

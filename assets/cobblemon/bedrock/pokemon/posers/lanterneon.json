@@ -1,0 +1,182 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [
+    -0.75,
+    -0.45,
+    0
+  ],
+  "profileScale": 0.85,
+  "profileTranslation": [
+    0,
+    0.25,
+    0
+  ],
+  "rootBone": "lanterneon",
+  "animations": {
+    "cry": "q.bedrock_stateful('lanterneon', 'cry')",
+    "faint": "q.bedrock_primary('lanterneon', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('lanterneon', 'recoil')",
+    "physical": "q.bedrock_primary('lanterneon', 'physical_move', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('lanterneon', 'special_move', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('lanterneon', 'status_move', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "isTouchingWater": false,
+      "condition": "!q.in_air",
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "portrait": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "sleep": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('lanterneon', 'sleep')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": false,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "running": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'ground_run')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "air": {
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "NONE"
+      ],
+      "isTouchingWater": false,
+      "condition": "q.in_air",
+      "transformTicks": 3,
+      "transformToTicks": 3,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "float": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "surface_idle": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "surface_swim": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "swim": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lanterneon', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanterneon', q.array('blink'), 6, 20, 1)"
+      ]
+    }
+  }
+}

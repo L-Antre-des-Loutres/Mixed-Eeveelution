@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:lanterneon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:lanterneon.geo",
+      "texture": "cobblemon:textures/pokemon/lanterneon/lanterneon.png",
+      "poser": "cobblemon:lanterneon",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/lanterneon/lanterneon_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/lanterneon/lanterneon_shiny.png",
+      "poser": "cobblemon:lanterneon"
+    }
+  ]
+}
