@@ -1,8 +1,16 @@
 {
   "portraitScale": 1,
-  "portraitTranslation": [0, 0, 0],
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
   "profileScale": 1,
-  "profileTranslation": [0, 0, 0],
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
   "rootBone": "root",
   "animations": {
     "cry": "q.bedrock_stateful('blank_anim', 'cry')",
@@ -17,85 +25,24 @@
       "poseName": "standing",
       "transformTicks": 10,
       "isBattle": false,
-      "poseTypes": ["STAND", "NONE"],
+      "isTouchingWater": false,
+      "condition": "!q.in_air",
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
       "animations": [
         "q.look('head')",
         "q.bedrock('blank_anim', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "portrait": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "isBattle": false,
-      "poseTypes": ["PORTRAIT", "PROFILE"],
-      "animations": [
-        "q.bedrock('blank_anim', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "walking": {
-      "poseTypes": ["WALK"],
-      "animations": [
-        "q.bedrock('blank_anim', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "sleep": {
-      "transformTicks": 10,
-      "poseTypes": ["SLEEP"],
-      "animations": [
-        "q.bedrock('blank_anim', 'sleep')"
-      ]
-    },
-    "hover": {
-      "poseTypes": ["HOVER"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'air_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "fly": {
-      "poseTypes": ["FLY"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'air_fly')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "float": {
-      "poseTypes": ["FLOAT"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'water_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
-      ]
-    },
-    "swim": {
-      "poseTypes": ["SWIM"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('blank_anim', 'water_swim')"
       ],
       "quirks": [
         "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
       ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head')",
@@ -105,21 +52,151 @@
         "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
       ]
     },
-    "shoulder_left": {
-      "poseTypes": ["SHOULDER_LEFT"],
+    "portrait": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'shoulder_left')"
+        "q.bedrock('blank_anim', 'ground_idle')"
       ],
       "quirks": [
         "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
       ]
     },
-    "shoulder_right": {
-      "poseTypes": ["SHOULDER_RIGHT"],
+    "sleep": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('blank_anim', 'sleep')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": false,
+      "condition": "!q.in_air && !q.is_sprinting",
       "animations": [
         "q.look('head')",
-        "q.bedrock('blank_anim', 'shoulder_right')"
+        "q.bedrock('blank_anim', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "running": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'ground_run')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "air": {
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "NONE"
+      ],
+      "isTouchingWater": false,
+      "condition": "q.in_air",
+      "transformTicks": 3,
+      "transformToTicks": 3,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "hover": {
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "fly": {
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "float": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "surface_idle": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "surface_swim": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
+      ]
+    },
+    "swim": {
+      "transformTicks": 10,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('blank_anim', 'water_swim')"
       ],
       "quirks": [
         "q.bedrock_quirk('blank_anim', q.array('blink'), 6, 20, 1)"
