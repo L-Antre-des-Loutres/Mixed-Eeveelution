@@ -262,8 +262,7 @@
       },
       "swim": {
         "swimSpeed": 0.5,
-        "canBreatheUnderwater": true,
-        "canWalkOnWater": true
+        "canBreatheUnderwater": true
       },
       "resting": {
         "canSleep": true,
