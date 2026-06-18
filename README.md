@@ -1,6 +1,5 @@
 <a id="readme-top"></a>
 
-<!-- README TOP -->
 <br/>
 <div align="center">
   <a href="https://github.com/L-Antre-des-Loutres/mixed_eeveelution">
@@ -21,7 +20,6 @@
 </div>
 <br/>
 
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 <ul>
   <li><a href="#addon">The things added by this addon</a></li>
@@ -31,23 +29,168 @@
   <li><a href="#contributors">Contributors</a></li>
 </ul>
 
-<!-- ADDON -->
 <a id="addon"></a>
 ## The things added by this addon
 
-placeholder
+<details>
+  <summary>Click to expand the list of added Pokemon</summary>
+  <br/>
+
+### Dark/Water Lanterneon Lanternity Lanternivee
+placeholder desc
+<br/>
+Custom ability **Dark immune** : The Pokemon is immune to Dark-type moves.
+
+### Dark/Fire Devileon
+placeholder desc
+<br/>
+Custom move **Spirit Burn** : Fire-type move super-effective on Ghost and Psychic types.
+
+### Dark/Fairy Cycleon
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Electric/Fire Soleon
+placeholder desc
+<br/>
+Custom ability **[name of custom ability]** : Heals the Pokemon 1/16 HP each turn when the sun is active.
+
+### Fairy/Grass Nateon
+placeholder desc
+<br/>
+Custom move **Floralshield** : Grass-type move that boost the user's defense stat. If the grassy terrain is active, it heals the user 50% of its max HP.
+
+### Fire/Water Steameon
+placeholder desc
+<br/>
+Custom ability **Steam Shield** : Removes the Pokemon's fire-type weaknesses.
+
+### Fire/Psychic Oracleon
+placeholder desc
+<br/>
+Custom move **Oracle Flare** : Fire-type move that can confuse the opponent.
+
+### Ice/Water Lyopheon
+placeholder desc
+<br/>
+Custom move **Aurora Chill** : Ice-type move that makes it snow for 5 turns. If it's already snowing, it sets up Aurora Veil.
+
+### Ice/Psychic Coldeon
+placeholder desc
+<br/>
+Custom ability **Frostbite** : Every attacking move that hits the oppenent has a 10% chance to freeze.
+
+### Psychic/Water Gloweon
+placeholder desc
+<br/>
+Custom move **Psychic Puddle** : Water-type move that sets up a 2 turns Psychic terrain if used under the rain.
+
+</details>
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- OBJECTIVES -->
 <a id="objectives"></a>
 ## Future additions
 
-placeholder
+<details>
+  <summary>Click to expand the list of planned Pokemon</summary>
+  <br/>
+
+### Dark/Electric
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Dark/Psychic
+placeholder desc
+<br/>
+Custom move **Nom-night** : Dark-type move that deal twice the damage if the opponent is sleeping but has a 20% chance to wake it up.
+
+### Dark/Grass
+placeholder desc
+<br/>
+Custom ability **Vine Armor** : This Pokemon inflicts 1/16 of the attacker's max HP on contact and as a 20% to inflict poison.
+
+### Dark/Ice
+placeholder desc
+<br/>
+Custom move **Ice Age** : Powerfull ice-type move that reduce the special defense of all Pokemon on the field.
+
+### Electric/Water
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Electric/Psychic
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Electric/Grass
+placeholder desc
+<br/>
+Custom ability **[name of custom ability]** : The Electric terrain boost the power of this Pokemon's Grass-type moves by 50%.
+
+### Electric/Ice
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Electric/Fairy
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Fairy/Water
+placeholder desc
+<br/>
+Custom ability **[name of custom ability]** : The Pokemon summons the rain as well as the misty terrain when entering battle.
+
+### Fairy/Fire
+placeholder desc
+<br/>
+Custom ability **[name of custom ability]** : The Pokemon summons the harsh sunlight as well as the misty terrain when entering battle.
+
+### Fairy/Psychic
+placeholder desc
+<br/>
+Custom move **Dreamsnack** : Fairy-type move that heals the user 75% of the damage dealt if the opponent is sleeping.
+
+### Fairy/Ice
+placeholder desc
+<br/>
+Custom ability **[name of custom ability]** : The Pokemon summons the snow as well as the misty terrain when entering battle.
+
+### Fire/Grass
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Fire/Ice
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Grass/Water
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Grass/Psychic
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+### Grass/Ice
+placeholder desc
+<br/>
+Custom ?? **??** : ??
+
+</details>
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- INSTALLATION -->
 <a id="installation"></a>
 ## Installation
 
@@ -79,7 +222,6 @@ placeholder
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- CONTACT -->
 <a id="contact"></a>
 ## Contact
 
@@ -87,7 +229,6 @@ placeholder
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- CONTRIBUTORS -->
 <a id="contributors"></a>
 ## Contributors
 
