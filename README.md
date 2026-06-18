@@ -213,14 +213,21 @@ Custom ?? **??** : ??
   4. Put the jar file inside the `mods/` folder.
   5. Launch the game or server and enjoy!
 
-  ### Installing the datapack/Ressource manually
+  ### Installing the datapack/ressource pack manually
 
+  For the **datapack** :
   1. Download the jar file.
   2. Open the world files.
      - For singleplayer worlds, the world files can be found in the `save/` folder of you Minecraft instance.
   3. Put the jar file inside the `datapack/` folder.
   4. Start your world or server and enjoy!
      -  If you already where on your world or server, you need to restart it.
+
+  For the **ressource pack** :
+  1. Download the jar file or re-use the datapack one.
+  3. Open game or server files.
+  3. Put the jar file inside the `ressourcepack/` folder.
+  4. In-game, Mixed Eeveelution should appear in your ressource packs. Put it on and enjoy!
   
 </details>
 
