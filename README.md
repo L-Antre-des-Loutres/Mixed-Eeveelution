@@ -36,20 +36,20 @@
   <summary>Click to expand the list of added Pokemon</summary>
   <br/>
 
-### Dark/Water Lanterneon Lanternity Lanternivee
-placeholder desc
+### Dark/Water Lanterneon
+> This Pokemon lives in the extreme depth of the ocean, migrating twice a year to the surface for breeding and feeding on bioluminescent plankton. When owned by a trainer, they sometimes do seem to miss their usual habitats, and it is recommended to let them rest in complete darkness or provide deep-water diving sessions regularly to maintain their well-being.
 <br/>
-Custom ability **Dark immune** : The Pokemon is immune to Dark-type moves.
+Custom ability **Gloomight** : The Pokemon is immune to Dark-type moves.
 
 ### Dark/Fire Devileon
-placeholder desc
+This Pokemon is portrailed as being evil and is a symbol of bad omens and betrayal in certain book stories. But in reality, it is extremely docile and playful, often rubbing its warm fur against the ones he likes. Be carefull to not touch its horns as they are very hot and can easily cause severe burns even when the Pokemon is at rest.
 <br/>
 Custom move **Spirit Burn** : Fire-type move super-effective on Ghost and Psychic types.
 
 ### Dark/Fairy Cycleon
-placeholder desc
+This extremely rare Pokemon is said to appear only during lunar transitions, embodying the delicate balance between night and starlight. Scholars believe its mood and powers shift with the celestial clock, making it an unpredictable but fiercely loyal partner for any trainer patient enough to understand its rhythm.
 <br/>
-Custom ?? **??** : ??
+Custom ability **Lunar Phase** : Changes its secondary effect depending on the time of day. During night, boost both attacking stats. During day, boost both defending stats. During dusk and dawn, boost the speed stats by 2 stages. Only work when the Pokemon enter battle or is sent in.
 
 ### Electric/Fire Soleon
 placeholder desc
