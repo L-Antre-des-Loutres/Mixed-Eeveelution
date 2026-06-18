@@ -225,7 +225,11 @@ Custom ?? **??** : ??
 <a id="contact"></a>
 ## Contact
 
-placeholder
+If you wish to contact us to ask a question about the addon, report a bug or give an idea, the best is that you [create an issue](https://github.com/L-Antre-des-Loutres/Mixed-Eeveelution/issues).
+
+For anything else, you can either :
+- Message `maybe_azertor` or `rerebleue` on discord.
+- Send at email at [arisoutre@gmail.com](mailto:arisoutre@gmail.com).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
