@@ -42,12 +42,12 @@
 Custom ability **Gloomight** : The Pokemon is immune to Dark-type moves.
 
 ### Dark/Fire Devileon
-This Pokemon is portrailed as being evil and is a symbol of bad omens and betrayal in certain book stories. But in reality, it is extremely docile and playful, often rubbing its warm fur against the ones he likes. Be carefull to not touch its horns as they are very hot and can easily cause severe burns even when the Pokemon is at rest.
+> This Pokemon is portrailed as being evil and is a symbol of bad omens and betrayal in certain book stories. But in reality, it is extremely docile and playful, often rubbing its warm fur against the ones he likes. Be carefull to not touch its horns as they are very hot and can easily cause severe burns even when the Pokemon is at rest.
 <br/>
 Custom move **Spirit Burn** : Fire-type move super-effective on Ghost and Psychic types.
 
 ### Dark/Fairy Cycleon
-This extremely rare Pokemon is said to appear only during lunar transitions, embodying the delicate balance between night and starlight. Scholars believe its mood and powers shift with the celestial clock, making it an unpredictable but fiercely loyal partner for any trainer patient enough to understand its rhythm.
+> This extremely rare Pokemon is said to appear only during lunar transitions, embodying the delicate balance between night and starlight. Scholars believe its mood and powers shift with the celestial clock, making it an unpredictable but fiercely loyal partner for any trainer patient enough to understand its rhythm.
 <br/>
 Custom ability **Lunar Phase** : Changes its secondary effect depending on the time of day. During night, boost both attacking stats. During day, boost both defending stats. During dusk and dawn, boost the speed stats by 2 stages. Only work when the Pokemon enter battle or is sent in.
 
