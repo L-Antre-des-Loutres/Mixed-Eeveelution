@@ -197,13 +197,7 @@ Custom ?? **??** : ??
 <details>
   <summary>Installing with Modrinth</summary>
   
-  ### Installing the mod with Modrinth
-
-  placeholder
-
-  ### Installing the datapack with Modrinth
-
-  placeholder
+  The addon hasn't been published to Morinth yet. Will be soon!
   
 </details>
 
@@ -211,12 +205,22 @@ Custom ?? **??** : ??
   <summary>Installing manually</summary>
   
   ### Installing the mod manually
+  
+  1. Download the jar file.
+  2. Install either Fabric or NeoForge.
+  3. Open game or server files.
+     - Be sure there is a `mods/` folder. If there isn't, create it or launch you game or server and close it then.
+  4. Put the jar file inside the `mods/` folder.
+  5. Launch the game or server and enjoy!
 
-  placeholder
+  ### Installing the datapack/Ressource manually
 
-  ### Installing the datapack manually
-
-  placeholder
+  1. Download the jar file.
+  2. Open the world files.
+     - For singleplayer worlds, the world files can be found in the `save/` folder of you Minecraft instance.
+  3. Put the jar file inside the `datapack/` folder.
+  4. Start your world or server and enjoy!
+     -  If you already where on your world or server, you need to restart it.
   
 </details>
 
